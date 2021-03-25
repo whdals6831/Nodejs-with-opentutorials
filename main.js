@@ -3,7 +3,7 @@ var url = require('url');
 var qs = require('querystring');
 var topic = require('./lib/topic');
 var author = require('./lib/author');
-// git test
+
 // node.js로 접속이 들어올때마다 createServer의 callback함수를 node.js가 호출한다.
 var app = http.createServer(function(request,response){
     var _url = request.url;
